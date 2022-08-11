@@ -1,0 +1,23 @@
+{
+  "name": "op-basicas-gama-xp44",
+  "version": "1.0.0",
+  "description": "",
+  "main": "opbasicas.js",
+  "scripts": {
+    "start": "node opbasicas.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuAlexandre/op-basicas-gama-xp44.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuAlexandre/op-basicas-gama-xp44/issues"
+  },
+  "homepage": "https://github.com/DuAlexandre/op-basicas-gama-xp44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
