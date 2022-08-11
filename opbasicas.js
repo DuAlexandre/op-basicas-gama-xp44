@@ -5,14 +5,21 @@ function adicao () {
     let numero1 = readline.question('Selecione o primeiro numero: ');
     let numero2 = readline.question('Selecione o segundo numero: ');
     let resultado = parseInt(numero1) + parseInt(numero2);
-    console.log(`${numero1} mais ${numero2} e igual a ${resultado}`);
+    console.log(`${numero1} mais ${numero2} e igual a ${resultado}.`);
 }
 
 function subtracao () {
     let numero1 = readline.question('Selecione o primeiro numero: ');
     let numero2 = readline.question('Selecione o segundo numero: ');
     let resultado = parseInt(numero1) - parseInt(numero2);
-    console.log(`${numero1} menos ${numero2} e igual a ${resultado}`);
+    console.log(`${numero1} menos ${numero2} e igual a ${resultado}.`);
+}
+
+function multiplicacao () {
+    let numero1 = readline.question('Selecione o primeiro numero: ');
+    let numero2 = readline.question('Selecione o segundo numero: ');
+    let resultado = parseInt(numero1) * parseInt(numero2);
+    console.log(`${numero1} vezes ${numero2} e igual a ${resultado}.`);
 }
 
 if (entradaInicial.toLocaleLowerCase() === 'adicao') {
@@ -20,4 +27,7 @@ if (entradaInicial.toLocaleLowerCase() === 'adicao') {
 }
 if (entradaInicial.toLocaleLowerCase() === 'subtracao') {
     subtracao();
+}
+if (entradaInicial.toLocaleLowerCase() === 'multiplicacao') {
+    multiplicacao();
 }
