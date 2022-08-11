@@ -72,7 +72,7 @@ modulo
 
 <br>
 
-## Prints de execução
+## Prints de execução 📷
 
 <br>
 
