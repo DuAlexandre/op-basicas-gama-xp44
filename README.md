@@ -26,7 +26,7 @@ Atividade consiste em executar operações matemáticas básicas diretamente no 
 
 * JavaScript;
 * Node;
-* Template Liteals;
+* Template Literals;
 * ReadLine-Sync.
 
 <br>
