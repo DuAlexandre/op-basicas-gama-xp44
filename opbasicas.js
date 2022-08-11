@@ -26,14 +26,14 @@ function divisao () {
     let numero1 = readline.question('Selecione o primeiro numero: ');
     let numero2 = readline.question('Selecione o segundo numero: ');
     let resultado = parseInt(numero1) / parseInt(numero2);
-    console.log(`${numero1} dividido por ${numero2} e igual a ${resultado}`);
+    console.log(`${numero1} dividido por ${numero2} e igual a ${resultado}.`);
 }
 
 function modulo() {
     let numero1 = readline.question('Selecione o primeiro numero: ');
     let numero2 = readline.question('Selecione o segundo numero: ');
     let resultado = parseInt(numero1) % parseInt(numero2);
-    console.log(`O resto da divisão de ${numero1} por ${numero2} e igual a ${resultado}`);
+    console.log(`O resto da divisão de ${numero1} por ${numero2} e igual a ${resultado}.`);
 }
 
 if (entradaInicial.toLocaleLowerCase() === 'adicao') {
